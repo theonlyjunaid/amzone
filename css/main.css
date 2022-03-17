@@ -1,0 +1,185 @@
+
+
+.change_content:after {
+  content: "";
+  animation: changetext 3s infinite linear;
+  color: #00b894;
+  font-size: 28px;
+font-weight: 600;
+}
+@keyframes changetext {
+  0% {
+    content: "Services";
+  }
+  50% {
+    content: "Pricing";
+  }
+ 100%{
+     content: "Services";
+ }
+}
+#Home .left-content{
+  
+  width: 475px;
+    /* border: 2px solid black; */
+    position: absolute ;
+    margin-top: 12em;
+    margin-left: 8em;
+    font-size: 1.5em;
+align-items: center;
+display: block;
+    justify-content: center;
+    padding-left: 8px;
+
+    /* align-self: center; */
+
+
+}
+#p{
+  font-size: 1.1em;
+  color: black;
+}
+.leftButton{
+  
+  padding: 4px 20px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #00b894;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+
+}
+.leftButton:hover{
+  /* font-size: 27px; */
+  background-color: white;
+  color: #00b894;
+  border: 1px solid #00b894;
+
+}
+.buttonBox{
+  margin-top: 10px;
+  /* justify-content: space-around; */
+  display: flex;
+
+}
+.Home{
+  background-image: url("../img/mainn.png");
+background-size: cover;
+/* background-size: contain; */
+background-repeat: no-repeat;
+height: 91vh;
+min-width: auto;
+position: relative;
+/* background-color: aqua; */
+}
+#pricing{
+  min-height: 100vh;
+  height: max-content;
+  background-color: aqua;
+  align-items: center;
+justify-content: center;
+padding-bottom: 2em;
+
+}
+/* .Home{
+  position: relative;
+  height: 100vh;
+} */
+/* #ourServices{
+  position: absolute;
+}
+.service{
+  box-shadow: black 3px ;
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+.service img{
+width: 190px;
+} */
+
+footer{
+  justify-content: center;
+  display: flex;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+}
+footer a{
+  /* font-size: 17px; */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* font-weight: 600; */
+}
+@media (max-width:425px){
+.Home {
+    background-image: url(../img/ser.png);
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    min-height: 93vh!important;
+    /* height: 75%; */
+    min-width: auto;
+    position: relative;
+    color: white;
+    /* background-color: aqua; */
+}
+#Home .left-content {
+    /* width: 127%; */
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 129%;
+    margin-left: 16%;
+    font-size: 89%;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    padding-left: 8px;
+    /* align-self: center; */
+}
+.change_content:after {
+    content: "";
+    animation: changetext 3s infinite linear;
+    color: #00b894;
+    font-size: 113%;
+    font-weight: 600;
+}
+#p {
+    font-size: 1.1em;
+    color: white;
+}
+.navbar img {
+    height: 67px;
+    margin-right: 24vw;
+    margin-top: 1vh;
+}
+}
+@media (max-width:360px){
+#Home .left-content {
+    /* width: 127%; */
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 125%;
+    margin-left: 11%;
+    font-size: 89%;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    padding-left: 8px;
+    /* align-self: center; */
+}}
+@media (max-width:320px){
+#Home .left-content {
+    /* width: 127%; */
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 125%;
+    margin-left: 8%;
+    font-size: 87%;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    padding-left: 8px;
+    /* align-self: center; */
+}}
