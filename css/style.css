@@ -213,7 +213,7 @@ nav .navbar .links li:hover .js-sub-menu{
     position: relative;
   } */
   .navbar .bx-menu{
-    display: none;
+    display:block;
   }
   nav .navbar .nav-links{
     position: fixed;
