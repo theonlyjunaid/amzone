@@ -173,7 +173,9 @@ footer a{
 }
 .navbar img {
     height: 67px;
-    margin-right: 24vw;
+    margin-top: 1vh;
+    margin-left: 20vw;
+}
     margin-top: 1vh;
 }
 }
