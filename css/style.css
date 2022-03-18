@@ -213,13 +213,13 @@ nav .navbar .links li:hover .js-sub-menu{
     position: relative;
   } */
   .navbar .bx-menu{
-    display:block;
+    display:none;
   }
   nav .navbar .nav-links{
     position: fixed;
     top: 0;
     /* left: -100%; */
-    display: block;
+    display: none;
     max-width: 270px;
     width: 100%;
     background:  #00b894;
