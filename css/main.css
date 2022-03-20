@@ -175,11 +175,12 @@ footer a{
     height: 67px;
     margin-top: 1vh;
     margin-left: 20vw;
-}
+
     margin-top: 1vh;
 }
 footer{
   font-size:9px;
+}
 }
 @media (max-width:360px){
 #Home .left-content {
