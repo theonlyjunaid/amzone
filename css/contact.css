@@ -42,8 +42,6 @@ textarea {
   position: relative;
 }
 
-
-
 .contact-form:before {
   content: "";
   position: absolute;
@@ -242,11 +240,6 @@ textarea.input {
   transform: scale(1.05);
 }
 
-
-
-
-
-
 .square {
   position: absolute;
   height: 400px;
@@ -341,8 +334,6 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
-
-
 
 .credit{
   text-align: center;

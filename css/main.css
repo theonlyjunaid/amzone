@@ -1,5 +1,4 @@
 
-
 .change_content:after {
   content: "";
   animation: changetext 3s infinite linear;
@@ -32,8 +31,6 @@ display: block;
     padding-left: 8px;
 
     /* align-self: center; */
-
-
 }
 #p{
   font-size: 1.1em;
@@ -61,7 +58,6 @@ display: block;
   margin-top: 10px;
   /* justify-content: space-around; */
   display: flex;
-
 }
 .Home{
   background-image: url("../img/mainn.png");
