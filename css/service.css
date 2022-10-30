@@ -30,7 +30,7 @@
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -41,7 +41,7 @@ h3 {
   margin: 1em 0;
 }
 p {
-  color: #575a7b;
+  color: #937246;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
